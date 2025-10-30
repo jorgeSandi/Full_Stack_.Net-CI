@@ -20,6 +20,6 @@ jobs:
       - name: Test
         run: dotnet test --no-build --verbosity normal
       - name: Run
-        run: dotnet run --project FullStackCI.csproj
+        run: dotnet run --project FullStackCI/FullStackCI.csproj
   
   
